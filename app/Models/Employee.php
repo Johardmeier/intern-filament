@@ -14,7 +14,7 @@ class Employee extends Model
         'last_name',
         'slug',
         'ahv_nr',
-        'birthday',
+        'birth_date',
         'remarks',
     ];
 

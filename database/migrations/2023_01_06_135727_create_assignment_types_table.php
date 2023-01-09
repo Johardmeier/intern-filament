@@ -20,8 +20,8 @@ return new class extends Migration
             $table->string('title');
             $table->integer('employees_needed')->default(1);
             $table->decimal('default_planned_hours')->nullable();
-            $table->foreignId('default_contract_category_id')->nullable()->constrained('contract_category');
-            $table->text('remarks')->default('');
+            $table->foreignId('default_contract_category_id')->nullable()->constrained('contract_categories');
+            $table->text('remarks');
         });
     }
 

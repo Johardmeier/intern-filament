@@ -21,7 +21,7 @@ return new class extends Migration
             $table->foreignId('contract_category_id')->constrained();
             $table->date('month');
             $table->decimal('hours',5,2)->default(0);
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 

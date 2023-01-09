@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('picture_link')->default('');
             $table->integer('accounting_nr')->default(0);
             $table->string('accounting_text')->default('');
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 

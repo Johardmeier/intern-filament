@@ -26,9 +26,8 @@ return new class extends Migration
             $table->decimal('ahv_percent',5,3)->default(0);
             $table->decimal('alv_percent',5,3)->default(0);
             $table->decimal('nbu_percent',5,3)->default(0);
-            $table->decimal('nbu_percent',5,3)->default(0);
             $table->decimal('bvg_yearly_amount',8,2)->default(0);
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 

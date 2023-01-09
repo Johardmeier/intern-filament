@@ -29,7 +29,7 @@ return new class extends Migration
             $table->string('crediting_reason')->default('');
             $table->decimal('expenses',5,2)->default(0);
             $table->string('expenses_text')->default('');
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 

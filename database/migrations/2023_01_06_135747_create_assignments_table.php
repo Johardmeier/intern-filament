@@ -23,7 +23,7 @@ return new class extends Migration
             $table->foreignId('assignment_type_id')->constrained();
             $table->decimal('planned_hours',5,2)->default(0);
             $table->integer('planned_employee_count')->default(1);
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 
