@@ -19,7 +19,7 @@ return new class extends Migration
             $table->softDeletes();
             $table->string('title');
             $table->foreignId('assignment_type_id')->nullable()->constrained();
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 

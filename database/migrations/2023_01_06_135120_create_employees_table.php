@@ -21,8 +21,8 @@ return new class extends Migration
             $table->string('last_name');
             $table->string('slug');
             $table->string('ahv_nr')->default('');
-            $table->date('birthday')->nullable();
-            $table->text('remarks')->default('');
+            $table->date('birth_date')->nullable();
+            $table->text('remarks');
         });
     }
 

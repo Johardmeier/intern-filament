@@ -24,7 +24,7 @@ return new class extends Migration
             $table->string('zipcode',8)->default('');
             $table->string('city')->default('');
             $table->string('mobile')->default('');
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 

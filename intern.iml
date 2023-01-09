@@ -135,6 +135,14 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/blade-ui-kit/blade-heroicons" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ryangjchandler/blade-capture-directive" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/livewire/livewire" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/saade/filament-fullcalendar" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/owenvoke/blade-fontawesome" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/brick/varexporter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/saade/blade-iconsax" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/wire-elements/modal" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/outhebox/blade-flags" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/outhebox/laravel-translations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/wireui/wireui" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

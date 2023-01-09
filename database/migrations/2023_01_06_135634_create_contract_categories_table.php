@@ -19,7 +19,7 @@ return new class extends Migration
             $table->softDeletes();
             $table->string('title');
             $table->decimal('factor',4,2)->default(1);
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 

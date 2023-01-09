@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('title');
             $table->date('entry_date')->useCurrent();
             $table->decimal('amount',8,2);
-            $table->text('Remarks')->default('');
+            $table->text('remarks');
         });
     }
 

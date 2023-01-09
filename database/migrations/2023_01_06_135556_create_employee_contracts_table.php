@@ -20,7 +20,7 @@ return new class extends Migration
             $table->foreignId('employee_id')->constrained();
             $table->string('title')->default('');
             $table->date('valid_from')->useCurrent();
-            $table->text('remarks')->default('');
+            $table->text('remarks');
         });
     }
 
